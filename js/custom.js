@@ -1,3 +1,19 @@
+$('.show').on('click',function(){
+	$('.sidebar').css('left','0px')
+})
+
+$('.close').on('click',function(){
+	$('.sidebar').css('left','-100%')
+})
+
+
+
+
+
+
+
+
+
 let activeIndex = 0;
 
 const groups = document.getElementsByClassName("card-group");
